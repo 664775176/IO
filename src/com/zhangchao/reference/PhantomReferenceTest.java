@@ -1,20 +1,28 @@
 package com.zhangchao.reference;
 
+import java.lang.ref.PhantomReference;
+import java.lang.ref.ReferenceQueue;
 import java.lang.ref.SoftReference;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Properties;
 
-public class SoftReferenceTest {  
-  
-    /** 
-     * @param args 
-     */  
-    public static void main(String[] args) {  
+/**
+ * @author Charsel zhang
+ * @version 0.0.1
+ * @classNane:PhantomReferenceTest
+ * @description: TODO
+ * @date 2019/3/7 10:22
+ */
+public class PhantomReferenceTest {
+    /**
+     * @param args
+     */
+    public static void main(String[] args) {
         A a = new A("");
-        a.str = "Hello, reference";  
-        SoftReference<A> sr = new SoftReference<A>(a);  
-        a = null;  
+        a.str = "Hello, reference";
+        PhantomReference<A> sr = new PhantomReference<A>(a, new ReferenceQueue());
+        a = null;
         int i = 0;
         List<Object> list = new ArrayList<>();
         Properties props=System.getProperties(); //系统属性
@@ -26,17 +34,16 @@ public class SoftReferenceTest {
             }
             System.out.println(list.size());
 //            if (i % 10 == 0) {
-                System.gc();
-                System.out.println("System.gc() was invoked!");
+            System.gc();
+            System.out.println("System.gc() was invoked!");
 //            }
-            try {  
-                Thread.sleep(500);  
-            } catch (InterruptedException e) {  
-  
+            try {
+                Thread.sleep(500);
+            } catch (InterruptedException e) {
+
             }
 
-        }  
-        System.out.println("object a was cleared by JVM!");  
-    }  
-  
-}  
+        }
+        System.out.println("object a was cleared by JVM!");
+    }
+}
