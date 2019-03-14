@@ -64,8 +64,8 @@ public class Test {
             Class.forName("sun.reflect.CallerSensitive");
             Class.forName("com.mysql.jdbc.Driver");
 //            getCallerClass();
-            DriverManager.getConnection("jdbc:mysql://localhost:3306/test", "aaa", "bbb");
-
+            DriverManager.getConnection("jdbc:mysql://localhost:3306/test", "root", "today36524");
+//
 
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
