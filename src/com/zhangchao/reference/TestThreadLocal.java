@@ -13,8 +13,10 @@ public class TestThreadLocal {
 
         i.set(10);
         System.out.println(i.get());
+        i = null;
         System.gc();
         fun();
+        System.out.println(i.get());
     }
 
     public static void fun(){

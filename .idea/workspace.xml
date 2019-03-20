@@ -5,16 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39e3af82-bc06-4d0a-90d4-cb7236367eb3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/zhangchao/juc/threadpool/TestSynchronousQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zhangchao/juc/UnsafeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zhangchao/juc/atomic/AtomicChar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zhangchao/juc/atomic/AtomicCharTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zhangchao/juc/atomic/AtomicDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zhangchao/juc/atomic/UpdaterUsage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zhangchao/reactor/Dispatcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zhangchao/reactor/Event.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zhangchao/reactor/EventHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zhangchao/reactor/EventType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zhangchao/reactor/InputSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zhangchao/reactor/Selector.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IO.iml" beforeDir="false" afterPath="$PROJECT_DIR$/IO.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/IO/com/zhangchao/classLoader/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IO/com/zhangchao/classLoader/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/IO/com/zhangchao/jvm/TestString1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IO/com/zhangchao/jvm/TestString1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/IO/com/zhangchao/reference/A.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IO/com/zhangchao/reference/A.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/IO/com/zhangchao/reference/SoftReferenceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IO/com/zhangchao/reference/SoftReferenceTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/IO/com/zhangchao/reference/WeakReferenceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IO/com/zhangchao/reference/WeakReferenceTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zhangchao/classLoader/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zhangchao/classLoader/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zhangchao/jvm/TestString1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zhangchao/jvm/TestString1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zhangchao/juc/IDServiceImpl.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zhangchao/juc/IDServiceImpl.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zhangchao/reference/TestThreadLocal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zhangchao/reference/TestThreadLocal.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,106 +35,20 @@
     </SUITE>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Executors.java" pinned="false" current-in-tab="false">
-        <entry file="jar://F:/jdk1.8/src.zip!/java/util/concurrent/Executors.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3872">
-              <caret line="217" column="52" selection-start-line="217" selection-start-column="52" selection-end-line="217" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestSynchronousQueue.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/zhangchao/juc/threadpool/TestSynchronousQueue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
-              <folding>
-                <element signature="e#636#637#0" expanded="true" />
-                <element signature="e#694#695#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ThreadPoolExecutor.java" pinned="false" current-in-tab="false">
-        <entry file="jar://F:/jdk1.8/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22352">
-              <caret line="1076" column="32" selection-start-line="1076" selection-start-column="32" selection-end-line="1076" selection-end-column="32" />
-              <folding>
-                <element signature="e#16766#16767#0" expanded="true" />
-                <element signature="e#16801#16802#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ArrayList.java" pinned="false" current-in-tab="true">
-        <entry file="jar://F:/jdk1.8/src.zip!/java/util/ArrayList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="716" selection-start-line="716" selection-end-line="716" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClassLoader.java" pinned="false" current-in-tab="false">
-        <entry file="jar://F:/jdk1.8/src.zip!/java/lang/ClassLoader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19734">
-              <caret line="960" column="51" selection-start-line="960" selection-start-column="51" selection-end-line="960" selection-end-column="51" />
-              <folding>
-                <element signature="e#37807#37808#0" expanded="true" />
-                <element signature="e#37839#37840#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AtomicInteger.java" pinned="false" current-in-tab="false">
-        <entry file="jar://F:/jdk1.8/src.zip!/java/util/concurrent/atomic/AtomicInteger.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1166">
-              <caret line="90" selection-start-line="90" selection-end-line="90" />
-              <folding>
-                <element signature="e#2060#2061#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SynchronousQueue.java" pinned="false" current-in-tab="false">
-        <entry file="jar://F:/jdk1.8/src.zip!/java/util/concurrent/SynchronousQueue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6710">
-              <caret line="349" selection-start-line="349" selection-end-line="349" />
-              <folding>
-                <element signature="e#34990#34991#0" expanded="true" />
-                <element signature="e#35017#35018#0" expanded="true" />
-                <element signature="e#35291#35292#0" expanded="true" />
-                <element signature="e#35374#35375#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="yet_unknown" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>drainTo</find>
-      <find>tryLock</find>
       <find>shutdown</find>
       <find>take</find>
       <find>newThread</find>
@@ -158,6 +77,8 @@
       <find>transfer</find>
       <find>findClass</find>
       <find>defineClass</find>
+      <find>getBoolean</find>
+      <find>parkBlocker</find>
     </findStrings>
     <replaceStrings>
       <replace>System.out.println(buffer.capacity());</replace>
@@ -174,17 +95,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/zhangchao/test/NumberTest.java" />
-        <option value="$PROJECT_DIR$/src/com/zhangchao/test/MyString.java" />
-        <option value="$PROJECT_DIR$/src/com/zhangchao/test/MyStringExtend.java" />
-        <option value="$PROJECT_DIR$/src/com/zhangchao/test/TestFinal.java" />
-        <option value="$PROJECT_DIR$/src/com/zhangchao/juc/atomic/AtomicIntergerArrayTest.java" />
-        <option value="$PROJECT_DIR$/src/com/zhangchao/juc/atomic/AtomicIntegerArrayTest.java" />
-        <option value="$PROJECT_DIR$/src/com/zhangchao/juc/ThreadTest.java" />
-        <option value="$PROJECT_DIR$/src/com/zhangchao/juc/ReorderingDemo.java" />
-        <option value="$PROJECT_DIR$/src/com/zhangchao/juc/CyclicBarrierTest.java" />
-        <option value="$PROJECT_DIR$/src/com/zhangchao/juc/LockSupportTest.java" />
-        <option value="$PROJECT_DIR$/src/com/zhangchao/juc/ThreadStatusTest.java" />
         <option value="$PROJECT_DIR$/src/com/zhangchao/juc/TestInterrupt.java" />
         <option value="$PROJECT_DIR$/src/com/zhangchao/test/TestBit.java" />
         <option value="$PROJECT_DIR$/src/com/zhangchao/rpc/RpcFramework.java" />
@@ -207,7 +117,6 @@
         <option value="$PROJECT_DIR$/src/com/zhangchao/juc/threadpool/TestThreadPool.java" />
         <option value="$PROJECT_DIR$/src/com/zhangchao/juc/threadpool/TestInterrupt.java" />
         <option value="$PROJECT_DIR$/src/com/zhangchao/test/TestProperties.java" />
-        <option value="$PROJECT_DIR$/src/com/zhangchao/reference/TestThreadLocal.java" />
         <option value="$PROJECT_DIR$/src/com/zhangchao/jvm/LargeObject.java" />
         <option value="$PROJECT_DIR$/src/com/zhangchao/jvm/TestEden1.java" />
         <option value="$PROJECT_DIR$/src/com/zhangchao/jvm/TestEden.java" />
@@ -224,26 +133,38 @@
         <option value="$PROJECT_DIR$/src/com/zhangchao/juc/threadpool/TestSynchronousQueue.java" />
         <option value="$PROJECT_DIR$/src/com/zhangchao/classLoader/Test.java" />
         <option value="$PROJECT_DIR$/src/com/zhangchao/juc/atomic/IDService.scala" />
+        <option value="$PROJECT_DIR$/src/com/zhangchao/reactor/InputSource.java" />
+        <option value="$PROJECT_DIR$/src/com/zhangchao/reactor/EventType.java" />
+        <option value="$PROJECT_DIR$/src/com/zhangchao/reactor/Event.java" />
+        <option value="$PROJECT_DIR$/src/com/zhangchao/reactor/EventHandler.java" />
+        <option value="$PROJECT_DIR$/src/com/zhangchao/reactor/Dispatcher.java" />
+        <option value="$PROJECT_DIR$/src/com/zhangchao/reactor/Selector.java" />
         <option value="$PROJECT_DIR$/src/com/zhangchao/juc/IDServiceImpl.scala" />
+        <option value="$PROJECT_DIR$/src/com/zhangchao/juc/UnsafeTest.java" />
+        <option value="$PROJECT_DIR$/src/com/zhangchao/juc/atomic/AtomicDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/zhangchao/juc/atomic/AtomicChar.java" />
+        <option value="$PROJECT_DIR$/src/com/zhangchao/juc/atomic/AtomicCharTest.java" />
+        <option value="$PROJECT_DIR$/src/com/zhangchao/juc/atomic/UpdaterUsage.java" />
+        <option value="$PROJECT_DIR$/src/com/zhangchao/reference/TestThreadLocal.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="227" />
-    <option name="y" value="286" />
+    <option name="x" value="1091" />
+    <option name="y" value="91" />
     <option name="width" value="480" />
     <option name="height" value="520" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <autoscrollFromSource ProjectPane="false" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -267,29 +188,15 @@
               <item name="IO" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="zhangchao" type="462c0819:PsiDirectoryNode" />
-              <item name="juc" type="462c0819:PsiDirectoryNode" />
+              <item name="reference" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="IO" type="b2602c69:ProjectViewProjectNode" />
               <item name="IO" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="zhangchao" type="462c0819:PsiDirectoryNode" />
-              <item name="juc" type="462c0819:PsiDirectoryNode" />
-              <item name="atomic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IO" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IO" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="zhangchao" type="462c0819:PsiDirectoryNode" />
-              <item name="jvm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IO" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IO" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="zhangchao" type="462c0819:PsiDirectoryNode" />
-              <item name="object" type="462c0819:PsiDirectoryNode" />
+              <item name="reference" type="462c0819:PsiDirectoryNode" />
+              <item name="WeakReferenceTest.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
             <path>
               <item name="IO" type="b2602c69:ProjectViewProjectNode" />
@@ -301,15 +208,77 @@
               <item name="IO" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
+            <path>
+              <item name="IO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="IO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lang" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
+              <item name="atomic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="sun" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://F:/idea-project/IO/src/com/zhangchao/classLoader/classloader/ClassLoadContext.java" />
-    <property name="last_opened_file_path" value="$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15140325" />
     <property name="project.structure.side.proportion" value="0.35452324" />
@@ -342,9 +311,31 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test">
-    <configuration name="Client2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zhangchao.reference.Client2" />
+  <component name="RunManager" selected="Application.TestThreadLocal">
+    <configuration name="AtomicCharTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhangchao.juc.atomic.AtomicCharTest" />
+      <module name="IO" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhangchao.juc.atomic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="AtomicDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhangchao.juc.atomic.AtomicDemo" />
+      <module name="IO" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhangchao.juc.atomic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="TestThreadLocal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhangchao.reference.TestThreadLocal" />
       <module name="IO" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -354,46 +345,24 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zhangchao.classLoader.Test" />
+    <configuration name="UpdaterUsage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhangchao.juc.atomic.UpdaterUsage" />
       <module name="IO" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zhangchao.classLoader.*" />
+          <option name="PATTERN" value="com.zhangchao.juc.atomic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="TestString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zhangchao.jvm.TestString" />
+    <configuration name="WeakReferenceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhangchao.reference.WeakReferenceTest" />
       <module name="IO" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zhangchao.jvm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="TestString1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zhangchao.jvm.TestString1" />
-      <module name="IO" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zhangchao.jvm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="TestSynchronousQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zhangchao.juc.threadpool.TestSynchronousQueue" />
-      <module name="IO" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zhangchao.juc.threadpool.*" />
+          <option name="PATTERN" value="com.zhangchao.reference.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -440,19 +409,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.Client2" />
-      <item itemvalue="Application.TestString" />
-      <item itemvalue="Application.TestString1" />
-      <item itemvalue="Application.TestSynchronousQueue" />
-      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.UpdaterUsage" />
+      <item itemvalue="Application.AtomicDemo" />
+      <item itemvalue="Application.AtomicCharTest" />
+      <item itemvalue="Application.WeakReferenceTest" />
+      <item itemvalue="Application.TestThreadLocal" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.TestSynchronousQueue" />
-        <item itemvalue="Application.TestString1" />
-        <item itemvalue="Application.TestString" />
-        <item itemvalue="Application.Client2" />
+        <item itemvalue="Application.TestThreadLocal" />
+        <item itemvalue="Application.WeakReferenceTest" />
+        <item itemvalue="Application.UpdaterUsage" />
+        <item itemvalue="Application.AtomicCharTest" />
+        <item itemvalue="Application.AtomicDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -495,7 +464,14 @@
       <option name="project" value="LOCAL" />
       <updated>1551927062730</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add">
+      <created>1552545561783</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1552545561783</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -503,6 +479,7 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49946696" weight="0.35444444" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
@@ -513,50 +490,49 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32900432" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1609808" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21641791" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.27345416" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39777777" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39777777" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25053304" />
       <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.32995737" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32900432" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49946696" weight="0.2979415" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.2510661" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.27345416" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.39718616" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.38444445" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49946696" weight="0.35444444" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21055438" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32900432" />
-      <window_info anchor="right" id="Maven Projects" order="6" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3982684" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39777777" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32900432" />
+      <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.32995737" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50053304" side_tool="true" weight="0.13636364" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49946696" weight="0.2987013" />
-      <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.32995737" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21641791" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32900432" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info id="Favorites" order="5" side_tool="true" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -721,157 +697,53 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/zhangchao/jvm/TestEden.java">
+    <entry file="file://$PROJECT_DIR$/src/com/zhangchao/juc/atomic/IDService.scala" />
+    <entry file="file://$PROJECT_DIR$/src/com/zhangchao/classLoader/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+        <state relative-caret-position="814">
+          <caret line="84" column="49" selection-start-line="84" selection-start-column="49" selection-end-line="84" selection-end-column="49" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zhangchao/juc/threadpool/RunnableFutureTask.java">
+    <entry file="jar://F:/jdk1.8/src.zip!/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1166">
-          <caret line="62" column="76" selection-start-line="62" selection-start-column="73" selection-end-line="62" selection-end-column="76" />
+        <state relative-caret-position="126">
+          <caret line="723" column="58" lean-forward="true" selection-start-line="723" selection-start-column="58" selection-end-line="723" selection-end-column="58" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zhangchao/jvm/RefenceTest.java">
+    <entry file="file://$PROJECT_DIR$/src/com/zhangchao/reactor/InputSource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="60" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="60" />
+        <state relative-caret-position="220">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zhangchao/reference/WeakReferenceTest2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="22" lean-forward="true" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zhangchao/reference/Salad.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="2" lean-forward="true" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/jdk1.8/src.zip!/java/lang/ThreadLocal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="311" column="34" selection-start-line="311" selection-start-column="33" selection-end-line="311" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zhangchao/reference/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zhangchao/reference/TestThreadLocal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/jdk1.8/src.zip!/java/lang/ref/Reference.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2911">
-          <caret line="41" column="22" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zhangchao/reference/Apple.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="31" column="60" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/jdk1.8/src.zip!/java/lang/ref/PhantomReference.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="78" column="54" selection-start-line="78" selection-start-column="40" selection-end-line="78" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zhangchao/reference/PhantomReferenceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="29" column="17" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zhangchao/reference/WeakReferenceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/jdk1.8/src.zip!/java/lang/ref/WeakReference.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/jdk1.8/src.zip!/java/lang/ref/Finalizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-924">
-          <caret line="33" column="12" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/jdk1.8/src.zip!/java/lang/ref/FinalReference.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="30" column="6" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zhangchao/reference/SoftReferenceTest.java">
+    <entry file="file://$PROJECT_DIR$/src/com/zhangchao/reactor/EventType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
-          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="46" />
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zhangchao/reference/StrongReferenceTest.java">
+    <entry file="file://$PROJECT_DIR$/src/com/zhangchao/reactor/Event.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+        <state relative-caret-position="220">
+          <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://F:/jdk1.8/src.zip!/java/lang/ref/ReferenceQueue.java">
+    <entry file="file://$PROJECT_DIR$/src/com/zhangchao/reactor/EventHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1301">
-          <caret line="103" column="34" selection-start-line="103" selection-start-column="34" selection-end-line="103" selection-end-column="34" />
+        <state relative-caret-position="286">
+          <caret line="13" column="41" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zhangchao/juc/threadpool/MyArrayBlockingQueue.java">
+    <entry file="file://$PROJECT_DIR$/src/com/zhangchao/reactor/Dispatcher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="12" column="50" lean-forward="true" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/jdk1.8/src.zip!/java/util/concurrent/ArrayBlockingQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-708">
-          <caret line="397" column="17" selection-start-line="397" selection-start-column="13" selection-end-line="397" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zhangchao/reference/Client2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="47" column="69" selection-start-line="47" selection-start-column="69" selection-end-line="47" selection-end-column="69" />
+        <state relative-caret-position="330">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -882,160 +754,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zhangchao/jvm/TestString.java">
+    <entry file="jar://F:/jdk1.8/jre/lib/rt.jar!/sun/misc/VM.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="60" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="60" />
+        <state relative-caret-position="-726" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zhangchao/reactor/Selector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zhangchao/jvm/TestString1.java">
+    <entry file="file://$PROJECT_DIR$/src/com/zhangchao/juc/IDServiceImpl.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="36" column="35" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
+        <state relative-caret-position="2750">
+          <caret line="125" lean-forward="true" selection-start-line="125" selection-end-line="125" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zhangchao/juc/threadpool/TestThreadPool.java">
+    <entry file="jar://F:/jdk1.8/jdk-935758609767 (1).zip!/jdk-935758609767/src/share/classes/sun/misc/VM.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="19" column="52" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zhangchao/juc/threadpool/TestRun.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="23" selection-start-column="23" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/jdk1.8/src.zip!/java/util/Deque.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="686">
-          <caret line="467" column="6" selection-start-line="467" selection-start-column="6" selection-end-line="467" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/jdk1.8/src.zip!/java/util/PriorityQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="349" column="13" selection-start-line="349" selection-start-column="13" selection-end-line="349" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/io.netty/netty-all/srcs/netty-all-4.1.20.Final-sources.jar!/io/netty/util/internal/DefaultPriorityQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="85" column="19" selection-start-line="85" selection-start-column="19" selection-end-line="85" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/jdk1.8/src.zip!/java/util/AbstractQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="94" column="17" selection-start-line="94" selection-start-column="12" selection-end-line="94" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/jdk1.8/src.zip!/java/util/Queue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="175" column="72" lean-forward="true" selection-start-line="175" selection-start-column="72" selection-end-line="175" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/jdk1.8/src.zip!/java/util/concurrent/BlockingQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1125">
-          <caret line="179" column="17" selection-start-line="179" selection-start-column="17" selection-end-line="179" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/jdk1.8/src.zip!/java/util/concurrent/LinkedBlockingDeque.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6336">
-          <caret line="333" column="19" selection-start-line="333" selection-start-column="19" selection-end-line="333" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/jdk1.8/src.zip!/java/util/concurrent/ExecutorService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="263" column="14" selection-start-line="263" selection-start-column="14" selection-end-line="263" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/jdk1.8/src.zip!/java/util/concurrent/AbstractExecutorService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1694">
-          <caret line="112" selection-start-line="112" selection-end-line="112" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/jdk1.8/src.zip!/java/util/concurrent/atomic/AtomicInteger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1166">
-          <caret line="90" selection-start-line="90" selection-end-line="90" />
+        <state relative-caret-position="66">
+          <caret line="238" column="26" selection-start-line="238" selection-start-column="26" selection-end-line="238" selection-end-column="26" />
           <folding>
-            <element signature="e#2060#2061#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/jdk1.8/src.zip!/java/util/concurrent/SynchronousQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6710">
-          <caret line="349" selection-start-line="349" selection-end-line="349" />
-          <folding>
-            <element signature="e#34990#34991#0" expanded="true" />
-            <element signature="e#35017#35018#0" expanded="true" />
-            <element signature="e#35291#35292#0" expanded="true" />
-            <element signature="e#35374#35375#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/jdk1.8/src.zip!/java/util/concurrent/Executors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3872">
-          <caret line="217" column="52" selection-start-line="217" selection-start-column="52" selection-end-line="217" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zhangchao/juc/threadpool/TestSynchronousQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
-          <folding>
-            <element signature="e#636#637#0" expanded="true" />
-            <element signature="e#694#695#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/jdk1.8/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22352">
-          <caret line="1076" column="32" selection-start-line="1076" selection-start-column="32" selection-end-line="1076" selection-end-column="32" />
-          <folding>
-            <element signature="e#16766#16767#0" expanded="true" />
-            <element signature="e#16801#16802#0" expanded="true" />
+            <element signature="e#8368#8369#0" expanded="true" />
+            <element signature="e#8405#8406#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://F:/jdk1.8/jdk-935758609767 (1).zip!/jdk-935758609767/src/share/classes/sun/reflect/Reflection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="57" column="20" lean-forward="true" selection-start-line="57" selection-start-column="20" selection-end-line="57" selection-end-column="20" />
+        <state relative-caret-position="167">
+          <caret line="58" column="34" selection-start-line="58" selection-start-column="34" selection-end-line="58" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/jdk1.8/src.zip!/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="350" column="86" lean-forward="true" selection-start-line="350" selection-start-column="86" selection-end-line="350" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/jdk1.8/src.zip!/java/net/URLClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="380" selection-start-line="380" selection-end-line="380" />
         </state>
       </provider>
     </entry>
     <entry file="jar://F:/jdk1.8/src.zip!/java/lang/ClassLoader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19734">
-          <caret line="960" column="51" selection-start-line="960" selection-start-column="51" selection-end-line="960" selection-end-column="51" />
+        <state relative-caret-position="349">
+          <caret line="423" selection-start-line="423" selection-end-line="423" />
           <folding>
             <element signature="e#37807#37808#0" expanded="true" />
             <element signature="e#37839#37840#0" expanded="true" />
@@ -1043,62 +816,257 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/mysql/mysql-connector-java/srcs/mysql-connector-java-5.1.36-sources.jar!/com/mysql/jdbc/SQLError.java">
+    <entry file="file://$PROJECT_DIR$/src/com/zhangchao/juc/UnsafeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/jdk1.8/jdk-935758609767 (1).zip!/jdk-935758609767/src/share/classes/java/util/concurrent/atomic/AtomicIntegerArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-221">
+          <caret line="126" column="8" selection-start-line="126" selection-start-column="8" selection-end-line="126" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/jdk1.8/jdk-935758609767 (1).zip!/jdk-935758609767/test/java/util/concurrent/atomic/Lazy.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
-          <caret line="997" selection-start-line="997" selection-end-line="997" />
+          <caret line="57" column="47" selection-start-line="57" selection-start-column="47" selection-end-line="57" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://F:/jdk1.8/jdk-935758609767 (1).zip!/jdk-935758609767/src/share/classes/sun/security/ec/CurveDB.java">
+    <entry file="jar://F:/jdk1.8/src.zip!/java/util/concurrent/atomic/AtomicIntegerArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
+        <state relative-caret-position="-5545">
+          <caret line="58" column="39" lean-forward="true" selection-start-line="58" selection-start-column="39" selection-end-line="58" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://F:/jdk1.8/src.zip!/java/lang/Class.java">
+    <entry file="jar://F:/jdk1.8/src.zip!/java/util/concurrent/atomic/AtomicLongArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-685">
-          <caret line="260" column="27" selection-start-line="260" selection-start-column="27" selection-end-line="260" selection-end-column="27" />
+        <state relative-caret-position="-220">
+          <caret line="52" column="34" selection-start-line="52" selection-start-column="29" selection-end-line="52" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zhangchao/classLoader/TestInit.java">
+    <entry file="file://$PROJECT_DIR$/src/com/zhangchao/juc/atomic/AtomicIntegerArrayTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="30" />
+        <state relative-caret-position="1319">
+          <caret line="61" column="31" selection-start-line="61" selection-start-column="29" selection-end-line="61" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zhangchao/juc/atomic/IDService.scala">
+    <entry file="jar://F:/jdk1.8/src.zip!/java/util/concurrent/atomic/AtomicLong.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="68" column="7" lean-forward="true" selection-start-line="68" selection-start-column="7" selection-end-line="68" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/jdk1.8/src.zip!/java/util/concurrent/atomic/AtomicReferenceFieldUpdater.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-353">
+          <caret line="108" column="55" lean-forward="true" selection-start-line="108" selection-start-column="55" selection-end-line="108" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zhangchao/juc/atomic/AtomicIntegerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="61" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/jdk1.8/src.zip!/java/util/concurrent/atomic/AtomicLongFieldUpdater.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
-          <caret line="19" column="22" lean-forward="true" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+          <caret line="82" column="7" lean-forward="true" selection-start-line="82" selection-start-column="7" selection-end-line="82" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zhangchao/juc/IDServiceImpl.scala">
+    <entry file="file://$PROJECT_DIR$/src/com/zhangchao/juc/atomic/AtomicCharTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="497">
-          <caret line="118" column="68" lean-forward="true" selection-start-line="118" selection-start-column="68" selection-end-line="118" selection-end-column="68" />
+        <state relative-caret-position="220">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/jdk1.8/jdk-935758609767 (1).zip!/jdk-935758609767/src/share/classes/sun/reflect/misc/ReflectUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="57" column="23" selection-start-line="57" selection-start-column="23" selection-end-line="57" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/jdk1.8/src.zip!/java/util/concurrent/atomic/AtomicIntegerFieldUpdater.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="518" column="20" selection-start-line="518" selection-start-column="20" selection-end-line="518" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zhangchao/juc/atomic/UpdaterUsage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="18" column="41" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zhangchao/juc/atomic/AtomicDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="66" selection-start-line="6" selection-start-column="66" selection-end-line="6" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/jdk1.8/jdk-935758609767 (1).zip!/jdk-935758609767/test/java/util/concurrent/atomic/AtomicReferenceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="54" column="27" selection-start-line="54" selection-start-column="27" selection-end-line="54" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/jdk1.8/src.zip!/java/util/concurrent/atomic/AtomicReference.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1345">
+          <caret line="83" column="22" selection-start-line="83" selection-start-column="19" selection-end-line="83" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/jdk1.8/src.zip!/java/util/concurrent/atomic/AtomicInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-924">
+          <caret line="236" column="65" selection-start-line="236" selection-start-column="51" selection-end-line="236" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/jdk1.8/src.zip!/java/util/concurrent/atomic/AtomicBoolean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="48" column="3" selection-start-line="48" selection-start-column="3" selection-end-line="48" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zhangchao/reference/Apple.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/jdk1.8/src.zip!/java/util/concurrent/atomic/AtomicStampedReference.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="63" column="34" selection-start-line="63" selection-start-column="34" selection-end-line="63" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zhangchao/juc/atomic/AtomicChar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
           <folding>
-            <element signature="e#27#72#0" expanded="true" />
+            <element signature="e#692#693#0" expanded="true" />
+            <element signature="e#717#718#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zhangchao/classLoader/Test.java">
+    <entry file="file://$PROJECT_DIR$/src/com/zhangchao/reference/SoftReferenceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="814">
-          <caret line="84" column="49" selection-start-line="84" selection-start-column="49" selection-end-line="84" selection-end-column="49" />
+        <state relative-caret-position="484">
+          <caret line="25" column="13" lean-forward="true" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://F:/jdk1.8/src.zip!/java/util/ArrayList.java">
+    <entry file="file://$PROJECT_DIR$/src/com/zhangchao/reference/StrongReferenceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="716" selection-start-line="716" selection-end-line="716" />
+        <state relative-caret-position="198">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/jdk1.8/src.zip!/java/lang/ThreadLocal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="412" column="22" selection-start-line="412" selection-start-column="22" selection-end-line="412" selection-end-column="22" />
+          <folding>
+            <element signature="e#7765#7766#0" expanded="true" />
+            <element signature="e#7802#7803#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zhangchao/reference/TestThreadLocal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zhangchao/reference/WeakReferenceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="12" column="65" lean-forward="true" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zhangchao/juc/LockSupportTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/jdk1.8/src.zip!/java/util/concurrent/locks/AbstractOwnableSynchronizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-37">
+          <caret line="49" column="22" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/jdk1.8/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="289" column="28" lean-forward="true" selection-start-line="289" selection-start-column="12" selection-end-line="289" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/jdk1.8/jdk-935758609767 (1).zip!/jdk-935758609767/src/share/classes/sun/misc/Unsafe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="43" column="19" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
+          <folding>
+            <element signature="e#11347#11348#0" expanded="true" />
+            <element signature="e#11393#11394#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/jdk1.8/src.zip!/java/util/concurrent/locks/LockSupport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="403" column="49" selection-start-line="403" selection-start-column="38" selection-end-line="403" selection-end-column="49" />
+          <folding>
+            <element signature="e#10983#10984#0" expanded="true" />
+            <element signature="e#11021#11022#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/jdk1.8/jdk-935758609767 (1).zip!/jdk-935758609767/src/share/classes/sun/nio/ch/Interruptible.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/jdk1.8/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="221" column="51" lean-forward="true" selection-start-line="221" selection-start-column="51" selection-end-line="221" selection-end-column="51" />
         </state>
       </provider>
     </entry>

@@ -113,20 +113,20 @@ class IDServiceImpl  {
     * @param bizItem
     */
   private def doFetchMaxId(bizItem: BizItem): BizItem = {
-    val res = dataSource.row[IDInfo](sql"""select * from id_info where biz_tag=${bizItem.bizTag} FOR UPDATE """)
-    val idInfo = res match {
-      case Some(x) => x
-      case None => throw new Exception( s"找不到此业务:${bizItem.bizTag}")
-    }
-    assert(idInfo.step >= 1024, s"step字段值至少要为1024或者其整数倍,当前 bizTag ${idInfo.bizTag} ,step ${idInfo.step}")
-    val newMaxId = idInfo.maxId + idInfo.step
+//    val res = dataSource.row[IDInfo](sql"""select * from id_info where biz_tag=${bizItem.bizTag} FOR UPDATE """)
+//    val idInfo = res match {
+//      case Some(x) => x
+//      case None => throw new Exception( s"找不到此业务:${bizItem.bizTag}")
+//    }
+//    assert(idInfo.step >= 1024, s"step字段值至少要为1024或者其整数倍,当前 bizTag ${idInfo.bizTag} ,step ${idInfo.step}")
+//    val newMaxId = idInfo.maxId + idInfo.step
+//
+//    val execute = dataSource.executeUpdate(sql"update id_info set max_id=${newMaxId} where biz_tag=${bizItem.bizTag}")
+//    assert(execute == 1, "update maxId failed")
 
-    val execute = dataSource.executeUpdate(sql"update id_info set max_id=${newMaxId} where biz_tag=${bizItem.bizTag}")
-    assert(execute == 1, "update maxId failed")
-
-    bizItem.nextId.set(idInfo.maxId)
-    bizItem.maxId.set(newMaxId)
-    logger.info(s"idService doFetchMaxId :: current bizTag [${bizItem.bizTag}] :: next [${bizItem.nextId.get} - ${bizItem.maxId.get}]")
+//    bizItem.nextId.set(idInfo.maxId)
+//    bizItem.maxId.set(newMaxId)
+//    logger.info(s"idService doFetchMaxId :: current bizTag [${bizItem.bizTag}] :: next [${bizItem.nextId.get} - ${bizItem.maxId.get}]")
 
     bizItem
   }
